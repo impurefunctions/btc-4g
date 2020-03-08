@@ -1,0 +1,32 @@
+.nav-item > a{
+    color:#28a745!important;
+}
+
+.active > a{
+    color:black !important;
+    
+}
+.navbar{
+    padding: 1.4rem 1rem !important;
+}
+.w-90{
+    width: 90%;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
+
+@font-face {
+    font-family: TrebuchetMSBold;
+    src: url(../fonts/Trebuchet\ MS/TrebuchetMSBold);
+  }
+
+a{
+    font-family: 'TrebuchetMSBold', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
