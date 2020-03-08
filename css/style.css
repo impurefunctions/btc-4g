@@ -12,6 +12,19 @@
 .w-90{
     width: 90%;
 }
+.w-80{
+    width:80%;
+}
+.m-a{
+    margin:auto;
+}
+body{
+    color: gray;
+}
+
+.fs-lgr{
+    font-size: larger;
+}
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
