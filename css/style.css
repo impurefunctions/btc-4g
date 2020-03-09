@@ -461,3 +461,42 @@ a{
     font-size: 0.8rem;
     font-weight: 600;
 }
+/* footer styling */
+
+
+
+ul {
+    list-style: none
+}
+a {
+    text-decoration: none
+}
+.generic-anchor {
+    color: lightgreen;
+}
+.flex-rw {
+    display: flex;
+    flex-flow: row wrap;
+}
+footer {
+    background: rgb(55,55,55);
+    /* margin-top: auto; */
+    /* width: 100% */
+}
+.footer-list-top {
+    /* width: 33.333% */
+}
+.footer-list-top > li {
+    /* text-align: center; */
+    /* padding-bottom: 10px */
+}
+.footer-list-header {
+
+    /* padding: 10px 0 5px 0; */
+    color: #fff;
+    font: 12px "Trebuchet MS", serif
+}
+.footer-list-anchor {
+    font: 12px "Trebuchet MS", serif
+}
+
