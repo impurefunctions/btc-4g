@@ -60,13 +60,14 @@
 
 .text-title {
     font-size: 20px;
-    font-family: Barlow-SemiBold;
+    font-weight: bolder;
+    font-family: "Trebuchet MS";
 
 }
 
 .text-desc {
     font-size: 16px;
-    font-family: Barlow-Regular;
+    font-family: "Trebuchet MS";
 }
 
 
@@ -82,7 +83,7 @@
     left: 16%;
     text-align: center;
     font-size: 46px;
-    font-family: Barlow-Bold;
+    font-family: "Trebuchet MS";
     display: inline-block;
     line-height: 1;
     color: #ffffff;
@@ -385,9 +386,30 @@
 body{
     color: gray;
 }
+.bg-gray{
+    background-color:#f8f9fa!important;
+}
 
 .fs-lgr{
     font-size: larger;
+}
+
+.fw-b{
+    font-weight: bold;
+    font-family: "Trebuchet MS",serif;
+}
+.card-override{
+    width: 20.5rem;
+    border: none;
+    background: none;
+    padding: .5rem;
+}
+
+.card-body-override{
+    padding: 1.25rem 0rem;
+}
+.card-text-override{
+    font-weight: bold;
 }
 
 @media (min-width: 992px){
