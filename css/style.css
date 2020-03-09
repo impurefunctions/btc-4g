@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .nav-item > a{
     color:#28a745!important;
 }
@@ -118,7 +121,33 @@
     border-radius: 8px;
 }
 
+@media screen and (max-width: 576px) {
+    /* .jumbotron {
+        padding: 4rem 2rem;
+        /* width: 90%; */
+        /* margin: auto; */
+    /* }  */
+
+}
 @media screen and (min-width: 768px) {
+    .jumbotron {
+        padding: 4rem 2rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .avid{
+        padding: 2rem 4rem;
+    }
+    .card-override{
+        width: 20.5rem;
+        border: none;
+        background: none;
+        padding: .5rem;
+    }
+    .card-body-override{
+        padding: 1.25rem 0rem !important;
+    }
     .volte-content .btn-primary {
         width: 36%;
     }
@@ -128,7 +157,8 @@
     }
 
     .volte-content .section-style {
-
+        padding-left: 4rem;
+        padding-right: 4rem;
         justify-content: space-between;
         flex-direction: row-reverse;
     }
@@ -205,6 +235,7 @@
 
     .volte-content .text-section {
         width: 100%;
+        padding:1rem
     }
 
     .reload-methods-cont .step-cont {
@@ -324,6 +355,7 @@
         width: 90%;
         max-height: 370px;
         max-width: 90%;
+
     }
 }
 
@@ -372,7 +404,10 @@
     
 }
 .navbar{
-    padding: 1.4rem 1rem !important;
+    padding: 1.1rem 1rem !important;
+}
+.text-cont{
+    padding:1rem
 }
 .w-90{
     width: 90%;
@@ -399,14 +434,14 @@ body{
     font-family: "Trebuchet MS",serif;
 }
 .card-override{
-    width: 20.5rem;
+    /* width: 20.5rem; */
     border: none;
     background: none;
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 
 .card-body-override{
-    padding: 1.25rem 0rem;
+    padding: 1.25rem 1rem;
 }
 .card-text-override{
     font-weight: bold;
@@ -449,7 +484,7 @@ a {
 footer {
     background: rgb(55,55,55);
     /* margin-top: auto; */
-    /* width: 100% */
+    width: 100vw
 }
 .footer-list-top {
     /* width: 33.333% */
