@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .nav-item > a{
     color:#28a745!important;
 }
@@ -481,7 +484,7 @@ a {
 footer {
     background: rgb(55,55,55);
     /* margin-top: auto; */
-    /* width: 100% */
+    width: 100vw
 }
 .footer-list-top {
     /* width: 33.333% */
