@@ -21,9 +21,29 @@
 body{
     color: gray;
 }
+.bg-gray{
+    background-color:#f8f9fa!important;
+}
 
 .fs-lgr{
     font-size: larger;
+}
+
+.fw-b{
+    font-weight: bold;
+}
+.card-override{
+    width: 20.5rem;
+    border: none;
+    background: none;
+    padding: .5rem;
+}
+
+.card-body-override{
+    padding: 1.25rem 0rem;
+}
+.card-text-override{
+    font-weight: bold;
 }
 
 @media (min-width: 992px){
