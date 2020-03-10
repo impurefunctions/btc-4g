@@ -497,6 +497,9 @@ footer {
     color:white
 }
 
+.f-b-r{
+    border-right: solid 1px;
+}
 
 
 .footer-list-anchor {
