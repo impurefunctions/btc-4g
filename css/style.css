@@ -482,23 +482,22 @@ a {
     flex-flow: row wrap;
 }
 footer {
-    background: rgb(55,55,55);
-    /* margin-top: auto; */
-    width: 100vw
-}
-.footer-list-top {
-    /* width: 33.333% */
-}
-.footer-list-top > li {
-    /* text-align: center; */
-    /* padding-bottom: 10px */
-}
-.footer-list-header {
-
-    /* padding: 10px 0 5px 0; */
+    width: 100vw;
+    background: linear-gradient(to bottom, #086a41 0%, #25b459 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#086a41', endColorstr='#25b459', GradientType=0 );
+    font-size: 13px;
     color: #fff;
-    font: 12px "Trebuchet MS", serif
 }
+.f-a{
+    color: white;
+    text-decoration: none;
+}
+.f-a:hover{
+    color:white
+}
+
+
+
 .footer-list-anchor {
     font: 12px "Trebuchet MS", serif
 }
